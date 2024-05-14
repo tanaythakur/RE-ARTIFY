@@ -51,7 +51,7 @@ function login(){
     var password = document.getElementById('password').value;
     if(username == 'user' && password == lock){
 		console.log()
-        window.location.replace(window.location.origin + "/Artistry-main/mainpage.html");
+        window.location.replace(window.location.origin + "/mainpage.html");
     }else{
         alert('Wrong credentials try again !!!')
     }
