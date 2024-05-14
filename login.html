@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="mainpage" href="mainpage.html">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/common.css">
+</head>
+<body>
+    <div class="logo">
+        <a href="./index.html"><img class="art" src="img/logo2.jpg"></a>
+      </div>
+    <div class="about">
+        <a href="./about.html">About Us</a>
+      </div>
+    <div class="container">
+        <div class="form-structor">
+            <div class="signup">
+                <h2 class="form-title" id="signup"><span>or</span>Sign up</h2>
+                <div class="form-holder">
+                    <input type="text" class="input" placeholder="Name"  id="name" />
+                    <input type="email" class="input" placeholder="Email"  id="email" />
+                    <input type="password" class="input" placeholder="Password"  id="sPassword"/>
+                </div>
+                <button class="submit-btn" id="signUpBtn" onclick="signup();">Sign up</button>
+            </div>
+            <div class="login slide-up">
+                <div class="center">
+                    <h2 class="form-title" id="login"><span>or</span>Log in</h2>
+                    <div class="form-holder">
+                        <input type="user" class="input" placeholder="Name" id="username" required  />
+                        <input type="password" class="input" placeholder="Password" id="password" required/>
+                    </div>
+                    <button class="submit-btn" id="loginBtn" onclick="login();">Log in</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/login.js"></script>
+</body>
+</html>
